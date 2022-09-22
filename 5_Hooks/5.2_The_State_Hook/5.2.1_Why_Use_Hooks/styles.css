@@ -1,0 +1,85 @@
+html, body {
+    margin: 4px;
+    height: 100%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#app {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    margin: 8px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+input,
+textarea {
+    padding: 5px;
+}
+
+form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    background-color: Cornsilk;
+    border: 1px solid BurlyWood;
+    border-radius: 5px 2px;
+    margin: 8px 0;
+}
+
+li div {
+    position: relative;
+}
+
+li div button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    border: 0;
+    padding: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+li div button:hover,
+li div button:focus {
+    box-shadow: 0 0 1px black;
+}
+
+li h2 {
+    background-color: NavajoWhite;
+    margin: 0;
+    padding: 4px;
+}
+
+li p {
+    margin: 8px;
+}
