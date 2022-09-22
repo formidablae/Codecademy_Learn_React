@@ -1,0 +1,18 @@
+html, body {
+    height: 100%;
+    background-color: #ffffff;
+    text-align: left;
+    margin: 0;
+}
+
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+#app {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 8px;
+}
